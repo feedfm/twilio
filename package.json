@@ -1,0 +1,17 @@
+{
+  "name": "twilio",
+  "version": "0.0.1",
+  "description": "Feed.fm and Twilio Sample App",
+  "main": "server.js",
+  "dependencies": {
+    "express": "~3.5.1",
+    "memory-cache": "~0.0.5",
+    "superagent": "~0.17.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Eric Lambrecht <eric@feed.fm>",
+  "license": "MIT"
+}
