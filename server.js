@@ -3,8 +3,8 @@ var express = require('express'),
     agent = require('superagent'),
     cache = require('memory-cache');
  
-var feedToken = 'beefdecadebeefdecadebeefdecadebeefdecade',
-    feedSecret = 'beefdecadebeefdecadebeefdecadebeefdecade',
+var feedToken = 'demo',
+    feedSecret = 'demo',
     userPass = new Buffer(feedToken + ':' + feedSecret).toString('base64'),
     host = 'http://54.186.190.255:8080'; // replace this with your host address
  
